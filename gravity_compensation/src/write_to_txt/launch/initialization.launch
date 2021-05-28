@@ -1,0 +1,13 @@
+<launch>
+
+    <!-- <rosparam command="load" file="$(find write_to_txt)/config/parameter.yaml" /> -->
+
+    <!-- <include file = "$(find sensor_imu)/launch/sensor_imu.launch" /> -->
+
+    <!-- <node pkg = "kb_talker" type = "kb_talker" name = "kb_talker" /> -->
+
+    <node pkg = "netft_utils" type = "netft_node" name = "netft_node" args = "192.168.8.104"/>
+
+    <node pkg = "write_to_txt" type = "initialization" name = "initialization" output = "screen" />
+
+</launch>

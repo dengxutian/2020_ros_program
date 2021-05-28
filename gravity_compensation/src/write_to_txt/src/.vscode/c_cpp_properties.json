@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/dxt/recorder/devel/include/**",
+                "/home/dxt/catch_control/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/dxt/catch_control/src/cortex_bridge/include/**",
+                "/home/dxt/recorder/src/kb_talker/include/**",
+                "/home/dxt/recorder/src/netft_utils/include/**",
+                "/home/dxt/catch_control/src/optoforce_etherdaq_driver/include/**",
+                "/home/dxt/catch_control/src/record/include/**",
+                "/home/dxt/catch_control/src/robotiq_85_gripper-master/robotiq_85_simulation/roboticsgroup_gazebo_plugins/include/**",
+                "/home/dxt/catch_control/src/ur5e_robot_ikfast_manipulator_plugin/include/**",
+                "/home/dxt/catch_control/src/universal_robot-ur_e/ur_kinematics/include/**",
+                "/home/dxt/catch_control/src/ur_modern_driver/include/**",
+                "/home/dxt/recorder/src/write_to_txt/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
